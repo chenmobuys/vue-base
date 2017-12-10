@@ -2,7 +2,7 @@
 
     <scroller lock-x scrollbar-y :use-pulldown="usePullDown" :use-pullup="usePullUp" @on-pulldown-loading="pullDownFresh"
               @on-pullup-loading="pullUpLoad" ref="scroller"
-              :value="status"  @on-scroll.stop="onScroll">
+              :value="status"  @on-scroll="onScroll">
 
         <div id="vux-scroller-content-index">
             <slot></slot>

@@ -8,8 +8,20 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
     el: '#app',
-    store,
     router,
+    store,
     render: h => h(App)
 })
+
+// document.addEventListener('deviceready', function() {
+//     new Vue({
+//         el: '#app',
+//         router,
+//         store,
+//         template: '<App/>',
+//         components: { App }
+//     })
+//     window.navigator.splashscreen.hide()
+// }, false);
+
 

@@ -38,7 +38,7 @@
 
         </layout>
 
-        <!--<layout-nav></layout-nav>-->
+        <layout-nav></layout-nav>
 
     </div>
 
