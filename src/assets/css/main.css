@@ -18,6 +18,11 @@
     left: 130% !important;
 }
 
+div[id^="vux-scroller-content-"]{
+    background-color: #ffffff;
+    padding: 0 !important;
+}
+
 .vux-badge {
     background: #e97a9b !important;
     color: #ffffff !important;

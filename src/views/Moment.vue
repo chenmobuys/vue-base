@@ -4,11 +4,16 @@
 
         <pull-down-up>
 
-            <div>{{this.$route.name}}</div>
+            <article>
+  <h1>Internet Explorer 9</h1>
+  <p>Windows Internet Explorer 9（简称 IE9）于 2011 年 3 月 14 日发布.....</p>
+</article>
 
         </pull-down-up>
 
         <layout-nav></layout-nav>
+
+        
 
     </div>
 
