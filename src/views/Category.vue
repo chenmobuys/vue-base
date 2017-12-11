@@ -27,9 +27,9 @@
                     <flexbox-item :span="3" class="flexcenter">
                         <div>
                             <svg class="icon iconfont category_icon" aria-hidden="true">
-                                <use xlink:href="#icon-shipin"></use>
+                                <use xlink:href="#icon-donghua"></use>
                             </svg>
-                            <span>视频</span>
+                            <span>动画</span>
                         </div>
                     </flexbox-item>
 
