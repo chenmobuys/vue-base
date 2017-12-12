@@ -69,6 +69,9 @@ textarea:-ms-input-placeholder{color: #DDDDDD;}
 .bc3{background-color:#E55E03;}
 .bc4{background-color:#DDDDDD;}
 .bc5{background-color:#F5F5F5;}
+.bc6{background-color:#000000;}
+.bc7{background-color:#e97a9b;}
+
 .c1{color: #AAAAAA}
 .c2{color: #E55E03}
 .c3{color: #333333}
@@ -79,6 +82,7 @@ textarea:-ms-input-placeholder{color: #DDDDDD;}
 .c8{color: #44B138}
 .c9{color: #FF5A5F}
 .c10{color: #F4A425}
+
 
 .ac:active{background-color:#F5F5F5;}
 .bc2.ac:active{background-color:#FFFFFF;}

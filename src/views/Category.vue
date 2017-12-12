@@ -4,7 +4,7 @@
 
         <pull-down-up>
 
-<div class="category_box">
+        <div class="category_box">
 
                 <div class="category_item">
                     <svg class="icon iconfont category_icon" aria-hidden="true">

@@ -1,3 +1,6 @@
+.weui-tabbar{
+    position: fixed !important;
+}
 .weui-tabbar__label {
     text-align: center;
     color: #999999;
