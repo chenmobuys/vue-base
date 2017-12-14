@@ -61,3 +61,61 @@ div[class^="layout-page-"],#app,html,body,.layout{
     fill: currentColor;
     overflow: hidden;
 }
+
+.col_content{
+    font-size: 0;
+}
+
+.col_item{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding: .15rem 0;
+}
+
+.col_item p{
+    padding:  .2rem 0;
+    font-size: .2rem;
+}
+
+.col_icon {
+    width: .75rem;
+    height: .75rem;
+}
+.border-1px{
+    border: 1px solid #f0f0f0;
+}
+.border-1px-t{
+    border-top: 1px solid #f0f0f0;
+}
+.border-1px-r{
+    border-right: 1px solid #f0f0f0;
+}
+.border-1px-b{
+    border-bottom: 1px solid #f0f0f0;
+}
+.border-1px-l{
+    border-left: 1px solid #f0f0f0;
+}
+
+.border-1px-tl{
+    border-top: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
+
+.inline-block{
+    display: inline-block !important;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position: fixed;
+}
+

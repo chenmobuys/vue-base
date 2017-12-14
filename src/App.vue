@@ -24,6 +24,6 @@
 
 <style>
     @import "./assets/css/base/css.css";
-    @import "./assets/css/main.css";
+    @import "assets/css/base/main.css";
 </style>
 
