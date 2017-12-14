@@ -39,14 +39,29 @@
 
                 </div>
 
-                <div class="right">
-                    <div>
+                <div class="middle">
+                    <div class="middle-h1">
                         <div class="inline-block">晨陌不语</div>
-                        <!--<svg class="icon iconfont c6 col_icon" aria-hidden="true">-->
-                            <!--<use xlink:href="#icon-lv4"></use>-->
-                        <!--</svg>-->
+                        <svg class="icon iconfont c6 col_icon icon-lv" aria-hidden="true">-->
+                            <use xlink:href="#icon-lv4"></use>
+                        </svg>
                     </div>
 
+                    <div class="middle-h2">
+                        <span>正式会员</span>
+                    </div>
+
+                    <div class="middle-h3">
+                        <span>硬币：288</span>
+                        <span>B币：288</span>
+                    </div>
+
+                </div>
+
+                <div class="right">
+                    <svg class="icon iconfont c6" aria-hidden="true">
+                        <use xlink:href="#icon-jiantou"></use>
+                    </svg>
                 </div>
 
             </div>
