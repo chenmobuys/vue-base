@@ -15,7 +15,7 @@
                   v-show="status.pulldownStatus === 'down' || status.pulldownStatus === 'up'"
                   :class="{'rotate': status.pulldownStatus === 'up'}">↓</span>
             <span v-show="status.pulldownStatus === 'loading'"
-                  :class="{'rotate': status.pulldownStatus === 'up'}"><spinner type="ios-small"></spinner></span>
+                  :class="{'rotate': status.pulldownStatus === 'up'}"><spinner type="ripple"></spinner></span>
         </div>
 
         <!--pullup slot-->
@@ -68,7 +68,7 @@
                     setTimeout(() => {
                         this.$refs.scroller.donePulldown()
                         this.status.pulldownStatus = 'default'
-                    }, 2000)
+                    }, 1000)
                 })
             },
 

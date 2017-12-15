@@ -1,6 +1,6 @@
 <template>
 
-    <div class="layout-page-member">
+    <div class="web_body scroll pt_a">
 
         <pull-down-up>
 

@@ -7,19 +7,19 @@
             <div class="member-header-h1">
 
                 <div class="member-header-item">
-                    <svg class="icon iconfont member-header-icon c6" aria-hidden="true">
+                    <svg class="icon iconfont member-header-icon c1" aria-hidden="true">
                         <use xlink:href="#icon-saoma"></use>
                     </svg>
                 </div>
 
                 <div class="member-header-item">
-                    <svg class="icon iconfont member-header-icon c6" aria-hidden="true">
+                    <svg class="icon iconfont member-header-icon c1" aria-hidden="true">
                         <use xlink:href="#icon-erweima"></use>
                     </svg>
                 </div>
 
                 <div class="member-header-item">
-                    <svg class="icon iconfont member-header-icon c6" aria-hidden="true">
+                    <svg class="icon iconfont member-header-icon c1" aria-hidden="true">
                         <use xlink:href="#icon-shezhi"></use>
                     </svg>
                 </div>
@@ -29,7 +29,7 @@
             <div class="member-header-h2">
                 <div class="left">
 
-                    <svg class="icon iconfont c6 col_icon" aria-hidden="true">
+                    <svg class="icon iconfont c1 col_icon" aria-hidden="true">
                         <use xlink:href="#icon-touxiangbeijing"></use>
                     </svg>
 
@@ -42,7 +42,7 @@
                 <div class="middle">
                     <div class="middle-h1">
                         <div class="inline-block">晨陌不语</div>
-                        <svg class="icon iconfont c6 col_icon icon-lv" aria-hidden="true">-->
+                        <svg class="icon iconfont c1 col_icon icon-lv" aria-hidden="true">-->
                             <use xlink:href="#icon-lv4"></use>
                         </svg>
                     </div>
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="right">
-                    <svg class="icon iconfont c6" aria-hidden="true">
+                    <svg class="icon iconfont c1" aria-hidden="true">
                         <use xlink:href="#icon-jiantou"></use>
                     </svg>
                 </div>
@@ -182,6 +182,6 @@
 </script>
 
 <style lang="less">
-    @import "../assets/less/member.less";
+    @import "../assets/less/views/member.less";
 </style>
 

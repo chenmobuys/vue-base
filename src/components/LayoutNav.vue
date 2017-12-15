@@ -91,13 +91,5 @@
 </script>
 
 <style lang="less">
-    .nav_icon {
-        width: .5rem;
-        height: .5rem;
-    }
-
-    /*div[class^="layout-page-"] {
-        height: 100% - 47px;
-        margin: 0 0 5% 0;
-    }*/
+    @import "../assets/less/comp/layout-nav.less";
 </style>

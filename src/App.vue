@@ -23,7 +23,7 @@
 </script>
 
 <style>
-    @import "./assets/css/base/css.css";
-    @import "assets/css/base/main.css";
+    @import "./assets/less/less.less";
+
 </style>
 
