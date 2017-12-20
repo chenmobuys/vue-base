@@ -24,6 +24,5 @@
 
 <style>
     @import "./assets/less/less.less";
-
 </style>
 

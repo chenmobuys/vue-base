@@ -189,16 +189,6 @@ textarea:-ms-input-placeholder {
   -o-transition: all .3s;
 }
 
-.main {
-  overflow-x: hidden;
-  min-height: 100vh;
-  padding-bottom: .24rem;
-  width: 100%;
-  max-width: 15rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .disscroll {
   height: 100vh;
   overflow: hidden;
@@ -208,7 +198,7 @@ textarea:-ms-input-placeholder {
   -webkit-overflow-scrolling: touch;
 }
 
-.noselect, .apptab, .header, .footer, .selectbar_btn1, .selectbar_btn2 {
+.noselect, .apptab, .header, .footer{
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -217,81 +207,31 @@ textarea:-ms-input-placeholder {
   user-select: none;
 }
 
-.pt_a {
-  padding-top: 0.98rem !important;
-}
-
-.pt_b {
-  padding-top: 1.96rem !important;
-}
-
-.pb_a {
-  padding-bottom: .96rem !important;
-}
-
-.pb_b {
-  padding-bottom: 2.1rem !important;
-}
-
-.pb_z {
-  padding-bottom: 2rem;
-}
-
-.c1 {
-  color: #ffffff
-}
-
-.c2 {
-  color: rgb(233, 122, 155)
-}
-
-.f0 {
+.icon_content {
   font-size: 0;
+
+  .icon_item {
+    width: @width25;
+    display: inline-block;
+    text-align: center;
+    padding: .15rem 0;
+
+    .icon {
+      width: .75rem;
+      height: .75rem;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+
+    p {
+      padding: .2rem 0;
+      font-size: .2rem;
+    }
+  }
+
 }
 
-.w25 {
-  width: 25%;
-}
 
-.w33 {
-  width: 33.3333%;
-}
 
-.w66 {
-  width: 66.7777%;
-}
 
-/*全局设定*/
-
-/*div[class^="layout-page-"], #app, html, body, .layout {
-  height: 100%;
-}*/
-
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
-}
-
-.col_content {
-  font-size: 0;
-}
-
-.col_item {
-  width: 25%;
-  display: inline-block;
-  text-align: center;
-  padding: .15rem 0;
-}
-
-.col_item p {
-  padding: .2rem 0;
-  font-size: .2rem;
-}
-
-.col_icon {
-  width: .75rem;
-  height: .75rem;
-}
